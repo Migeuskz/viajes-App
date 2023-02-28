@@ -4,7 +4,15 @@ import 'package:viajes_app/screens/review.dart';
 
 //stless
 class DescriptionPlaceScreen extends StatelessWidget {
-  const DescriptionPlaceScreen({super.key});
+  final String namePlace;
+  final String descriptionPlace;
+  final int stars;
+
+  const DescriptionPlaceScreen(
+      {super.key,
+      required this.namePlace,
+      required this.descriptionPlace,
+      required this.stars});
 
   @override
   Widget build(BuildContext context) {
@@ -12,9 +20,6 @@ class DescriptionPlaceScreen extends StatelessWidget {
       fontSize: 30.0,
       fontWeight: FontWeight.bold,
     );
-
-    const descriptionText =
-        'Non consequat ea officia tempor non nulla et do tempor veniam Lorem. Nostrud duis ipsum magna officia adipisicing anim dolore velit est voluptate amet incididunt ex laborum. Ut et sint cillum fugiat cupidatat.  Do irure occaecat occaecat eu sit sunt id.\n\n Nulla mollit nisi dolor eu eiusmod duis occaecat dolore commodo consequat. Sunt mollit tempor enim ea in nisi ad irure dolor quis qui commodo ullamco nostrud. Sunt mollit ex nulla commodo ipsum .';
 
     final star = Container(
       margin: const EdgeInsets.only(
@@ -34,8 +39,8 @@ class DescriptionPlaceScreen extends StatelessWidget {
             left: 20.0,
             right: 20.0,
           ),
-          child: const Text(
-            "Duwili Ella",
+          child: Text(
+            namePlace,
             style: titleStyle,
             textAlign: TextAlign.left,
           ),
@@ -54,7 +59,7 @@ class DescriptionPlaceScreen extends StatelessWidget {
         right: 20.0,
       ),
       child: Text(
-        descriptionText,
+        descriptionPlace,
         style: GoogleFonts.lato(
           textStyle: const TextStyle(
             fontSize: 16,

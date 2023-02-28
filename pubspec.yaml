@@ -63,6 +63,8 @@ flutter:
 
   assets: 
     - assets\img\tipo1.jpg
+    - assets\img\persona1.jpg
+    - assets\img\persona2.jpg
 
 
   # To add assets to your application, add an assets section, like this:
