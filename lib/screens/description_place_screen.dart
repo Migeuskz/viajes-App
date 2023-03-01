@@ -69,7 +69,10 @@ class DescriptionPlaceScreen extends StatelessWidget {
     );
 
     return Column(
-      children: [titleAndStars, description, const Review()],
+      children: [
+        titleAndStars,
+        description,
+      ],
     );
   }
 }
