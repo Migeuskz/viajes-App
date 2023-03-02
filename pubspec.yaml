@@ -65,6 +65,10 @@ flutter:
     - assets\img\tipo1.jpg
     - assets\img\persona1.jpg
     - assets\img\persona2.jpg
+    - assets\img\place1.jpg
+    - assets\img\place2.jpg
+    - assets\img\place3.jpg
+    - assets\img\place4.jpg
 
 
   # To add assets to your application, add an assets section, like this:
