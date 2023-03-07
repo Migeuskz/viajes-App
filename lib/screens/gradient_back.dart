@@ -21,13 +21,16 @@ class GradientBack extends StatelessWidget {
           tileMode: TileMode.clamp,
         ),
       ),
-      alignment: const Alignment(-0.9, -0.3),
-      child: Text(
-        title,
-        style: GoogleFonts.lato(
-          fontSize: 30.0,
-          color: Colors.white,
-          fontWeight: FontWeight.bold,
+      alignment: const Alignment(-0.9, -0.5),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Text(
+          title,
+          style: GoogleFonts.lato(
+            fontSize: 30.0,
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );
