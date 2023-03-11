@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/screens/button_navigate.dart';
-import 'package:viajes_app/screens/home_screen.dart';
-import 'package:viajes_app/screens/profile_screen.dart';
-import 'package:viajes_app/screens/search_place_screen.dart';
+import 'package:viajes_app/places/iu/screens/button_navigate.dart';
+import 'package:viajes_app/places/iu/screens/home_screen.dart';
+import 'package:viajes_app/profile/iu/screens/profile_screen.dart';
+import 'package:viajes_app/search/iu/screens/search_place_screen.dart';
 
 class Travels extends StatefulWidget {
   const Travels({super.key});

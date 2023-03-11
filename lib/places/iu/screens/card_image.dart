@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/screens/small_navigate.dart';
+import 'package:viajes_app/places/iu/screens/small_navigate.dart';
 
 class CardImage extends StatelessWidget {
   final String pathImage;

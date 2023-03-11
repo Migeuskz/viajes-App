@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/screens/card_image.dart';
+import 'package:viajes_app/places/iu/screens/card_image.dart';
 
 class CardImageList extends StatelessWidget {
   const CardImageList({super.key});

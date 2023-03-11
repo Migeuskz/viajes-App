@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/screens/description_place_screen.dart';
-import 'package:viajes_app/screens/gradient_back.dart';
-import 'package:viajes_app/screens/header.dart';
-import 'package:viajes_app/screens/reviews.dart';
-import 'package:viajes_app/screens/travels.dart';
+import 'package:viajes_app/places/iu/screens/description_place_screen.dart';
+import 'package:viajes_app/places/iu/screens/gradient_back.dart';
+import 'package:viajes_app/places/iu/screens/header.dart';
+import 'package:viajes_app/places/iu/screens/reviews.dart';
+import 'package:viajes_app/places/iu/screens/travels.dart';
 
 void main() => runApp(const MyApp());
 

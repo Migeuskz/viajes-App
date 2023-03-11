@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/screens/review.dart';
+import 'package:viajes_app/places/iu/screens/review.dart';
 
 class Reviews extends StatelessWidget {
   const Reviews({super.key});

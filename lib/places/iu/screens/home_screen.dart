@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:viajes_app/screens/reviews.dart';
+import 'package:viajes_app/places/iu/screens/reviews.dart';
 import 'description_place_screen.dart';
 import 'header.dart';
 
