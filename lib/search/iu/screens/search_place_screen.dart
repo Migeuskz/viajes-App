@@ -7,13 +7,13 @@ class SearchPlaceScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.amber,
+      color: Colors.white,
       child: Center(
         child: Text(
           'Búsqueda de lugares interesantes',
           style: GoogleFonts.lato(
             fontSize: 30.0,
-            color: Colors.green,
+            color: Colors.blue,
           ),
         ),
       ),
