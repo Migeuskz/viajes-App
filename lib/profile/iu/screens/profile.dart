@@ -16,7 +16,7 @@ class Profile extends StatelessWidget {
           User(
               pathProfile: 'assets/img/tipo1.jpg',
               user: 'Steve Jacobs',
-              details: '1 review, 5 photos'),
+              details: '3 review, 5 photos'),
         ],
       ),
     );
