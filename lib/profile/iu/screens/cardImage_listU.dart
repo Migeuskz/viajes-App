@@ -12,11 +12,14 @@ class CardImageListU extends StatelessWidget {
       scrollDirection: Axis.vertical,
       children: const [
         SizedBox(
-          height: 180,
+          height: 170,
         ),
         CardImageU(pathImageU: 'assets/img/place1.jpg'),
         CardImageU(pathImageU: 'assets/img/place2.jpg'),
         CardImageU(pathImageU: 'assets/img/place3.jpg'),
+        SizedBox(
+          height: 40,
+        ),
       ],
     );
   }

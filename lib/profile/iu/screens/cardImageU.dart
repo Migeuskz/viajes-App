@@ -1,9 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:viajes_app/places/iu/screens/small_navigate.dart';
+import 'package:viajes_app/profile/iu/screens/cardInfo.dart';
+import 'package:viajes_app/profile/iu/screens/smallButtonU.dart';
 
-class CardImageU extends StatelessWidget {
+class CardImageU extends StatefulWidget {
   final String pathImageU;
   const CardImageU({super.key, required this.pathImageU});
 
+  @override
+  State<CardImageU> createState() => _CardImageUState();
+}
+
+class _CardImageUState extends State<CardImageU> {
   @override
   Widget build(BuildContext context) {
     final card = Container(
@@ -16,7 +24,7 @@ class CardImageU extends StatelessWidget {
       decoration: BoxDecoration(
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage(pathImageU),
+          image: AssetImage(widget.pathImageU),
         ),
         borderRadius: const BorderRadius.all(Radius.circular(10)),
         boxShadow: const <BoxShadow>[
@@ -30,9 +38,20 @@ class CardImageU extends StatelessWidget {
     );
 
     return Stack(
-      alignment: const Alignment(0.9, 1.1),
+      alignment: const Alignment(0.9, 1.5),
       children: [
-        card,
+        Column(
+          children: [
+            Stack(
+              alignment: const Alignment(0.4, 1.3),
+              children: [
+                card,
+                const CardInfo(),
+              ],
+            )
+          ],
+        ),
+        const SmallButtonU()
       ],
     );
   }
