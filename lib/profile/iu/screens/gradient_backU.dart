@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:viajes_app/profile/iu/screens/profile.dart';
 
 class GradientBack extends StatelessWidget {
   final String title;
@@ -8,7 +9,7 @@ class GradientBack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 750.0,
+      height: 350.0,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           colors: [
